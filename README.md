@@ -1,12 +1,12 @@
 # napari-demo
 
-[![License](https://img.shields.io/pypi/l/napari-demo.svg?color=green)](https://github.com/napari/napari-demo/raw/master/LICENSE)
+[![License](https://img.shields.io/pypi/l/napari-demo.svg?color=green)](https://github.com/ziyangczi/napari-demo/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-demo.svg?color=green)](https://pypi.org/project/napari-demo)
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-demo.svg?color=green)](https://python.org)
 [![tests](https://github.com/ziyangczi/napari-demo/workflows/tests/badge.svg)](https://github.com/ziyangczi/napari-demo/actions)
 [![codecov](https://codecov.io/gh/ziyangczi/napari-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/ziyangczi/napari-demo)
 
-demo plugin
+This is a demo plugin implementation of https://github.com/napari/napari/blob/master/examples/magic_image_arithmetic.py
 
 ----------------------------------
 

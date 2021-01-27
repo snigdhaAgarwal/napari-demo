@@ -1,6 +1,8 @@
 import enum
 import numpy as np
 
+from napari_plugin_engine import napari_hook_implementation
+
 
 # Enums are a convenient way to get a dropdown menu
 class Operation(enum.Enum):
@@ -22,6 +24,11 @@ class Operation(enum.Enum):
 # Note: here we use `napari.types.ImageData` as our parameter annotations,
 # which means our function will be passed layer.data instead of
 # the full layer instance
+@napari_hook_implementation
+def napari_experimental_provide_function():
+    return image_arithmetic
+
+
 def image_arithmetic(
     layerA: 'napari.types.ImageData',
     operation: Operation,
@@ -29,8 +36,3 @@ def image_arithmetic(
 ) -> 'napari.types.ImageData':
     """Adds, subtracts, multiplies, or divides two same-shaped image layers."""
     return operation.value(layerA, layerB)
-
-
-# We also use the additional `call_button` option to add a button that
-# will trigger function execution.
-magic = {'call_button': "execute"}

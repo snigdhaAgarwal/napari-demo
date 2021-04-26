@@ -1,7 +1,7 @@
 import numpy as np
 from napari_demo import napari_experimental_provide_function
 from napari_demo.napari_demo import Operation
-from napari_plugin_devtools import list_function_implementations
+from napari_plugin_devtools import list_hook_implementations
 
 
 def test_function():
@@ -25,4 +25,4 @@ def test_plugin():
            '"annotations": {"return": "napari.types.ImageData", "layerA": ' \
            '"napari.types.ImageData", "operation": "<enum \'Operation\'>", ' \
            '"layerB": "napari.types.ImageData"}, "defaults": null}]' \
-           == list_function_implementations()
+           == list_hook_implementations()

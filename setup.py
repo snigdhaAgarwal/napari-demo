@@ -38,6 +38,7 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
+    project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

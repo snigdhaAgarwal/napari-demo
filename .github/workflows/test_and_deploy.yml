@@ -82,6 +82,4 @@ jobs:
         run: |
           git tag
           python setup.py sdist bdist_wheel
-          pip install napari-plugin-devtools
-          npd --validate-functions --validate-packages
           twine upload dist/*

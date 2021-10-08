@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ziyang"
+  given-names: "Liu"
+title: "A napari demo plugin"
+version: 0.0.2
+date-released: 2021-04-26
+url: "https://github.com/potating-potato/napari-demo"

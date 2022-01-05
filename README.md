@@ -1,10 +1,10 @@
 # napari-demo
 
-[![License](https://img.shields.io/pypi/l/napari-demo.svg?color=green)](https://github.com/ziyangczi/napari-demo/raw/master/LICENSE)
+[![License](https://img.shields.io/pypi/l/napari-demo.svg?color=green)](https://github.com/chanzuckerberg/napari-demo/raw/master/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-demo.svg?color=green)](https://pypi.org/project/napari-demo)
 [![Python Version](https://img.shields.io/pypi/pyversions/napari-demo.svg?color=green)](https://python.org)
-[![tests](https://github.com/ziyangczi/napari-demo/workflows/tests/badge.svg)](https://github.com/ziyangczi/napari-demo/actions)
-[![codecov](https://codecov.io/gh/ziyangczi/napari-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/ziyangczi/napari-demo)
+[![tests](https://github.com/chanzuckerberg/napari-demo/workflows/tests/badge.svg)](https://github.com/chanzuckerberg/napari-demo/actions)
+[![codecov](https://codecov.io/gh/chanzuckerberg/napari-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/chanzuckerberg/napari-demo)
 
 This is a demo plugin implementation of https://github.com/napari/napari/blob/master/examples/magic_image_arithmetic.py
 
@@ -51,7 +51,7 @@ To report security issues, see [security](SECURITY.md)
 [Apache Software License 2.0]: http://www.apache.org/licenses/LICENSE-2.0
 [Mozilla Public License 2.0]: https://www.mozilla.org/media/MPL/2.0/index.txt
 [cookiecutter-napari-plugin]: https://github.com/napari/cookiecutter-napari-plugin
-[file an issue]: https://github.com/ziyangczi/napari-demo/issues
+[file an issue]: https://github.com/chanzuckerberg/napari-demo/issues
 [napari]: https://github.com/napari/napari
 [tox]: https://tox.readthedocs.io/en/latest/
 [pip]: https://pypi.org/project/pip/

@@ -29,7 +29,7 @@ setup(
     author='Ziyang Liu',
     author_email='zliu@chanzuckerberg.com',
     license='BSD-3',
-    url='https://github.com/ziyangczi/napari-demo',
+    url='https://github.com/chanzuckerberg/napari-demo',
     description='demo plugin',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
@@ -38,7 +38,7 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
-    project_urls={'Source Code': 'https://github.com/ziyangczi/napari-demo'},
+    project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

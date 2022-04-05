@@ -26,8 +26,8 @@ use_scm = {"write_to": "napari_demo/_version.py"}
 
 setup(
     name='napari-demo',
-    author='Ziyang Liu',
-    author_email='zliu@chanzuckerberg.com',
+    # author='Ziyang Liu',
+    # author_email='zliu@chanzuckerberg.com',
     license='BSD-3',
     url='https://github.com/chanzuckerberg/napari-demo',
     description='demo plugin',
@@ -38,7 +38,7 @@ setup(
     install_requires=requirements,
     use_scm_version=use_scm,
     setup_requires=['setuptools_scm'],
-    project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo'},
+    # project_urls={'Source Code': 'https://github.com/chanzuckerberg/napari-demo'},
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
